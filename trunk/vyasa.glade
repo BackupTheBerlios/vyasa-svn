@@ -365,6 +365,7 @@
 <widget class="GtkAboutDialog" id="aboutdialog">
   <property name="destroy_with_parent">False</property>
   <property name="name" translatable="yes">Vyasa 0.1</property>
+  <property name="icon">vyasa-icon.png</property>
   <property name="copyright" translatable="yes">Copyright (C) 2006, Baishampayan Ghose</property>
   <property name="comments" translatable="yes">Vyasa is a very simple multilingual text editor written in Python &amp; GTk+</property>
   <property name="license">Licensed used GNU General Public License v2.
