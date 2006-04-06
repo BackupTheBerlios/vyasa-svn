@@ -1,0 +1,105 @@
+%%% srs.tex --- 
+
+%% Author: Baishampayan Ghose <b.ghose@gnu.org.in>
+%% Version: $Id: srs.tex,v 0.0 2006/04/06 19:19:42 ghoseb Exp$
+
+
+\documentclass[12pt,a4paper]{article}
+%%\usepackage[debugshow,final]{graphics}
+\newcommand{\VS}{\textit{Vyasa}}
+
+%% SET ALL MARGINS 1 INCH ---------------------------------------
+\oddsidemargin  0.0in
+\evensidemargin 0.0in
+\textwidth      6.27in
+\headheight     14.5pt
+\topmargin      0.0in
+\textheight     8.90in
+%% --------------------------------------------------------------
+
+\usepackage{newcent}
+\title {Vyasa -- A simple, multilingual text editor}
+\author {Baishampayan Ghose, Aatif Haider, \textit{et al.} \\ D.Y. Patil College of Engineering \&{} Technology,
+\\ Kolhapur, Maharashtra}
+
+\begin{document}
+%\maketitle
+\tableofcontents
+
+%%%%##########################################################################
+
+\section{Introduction}
+The {\bfseries Software Requirements Specifications} (SRS) of
+\VS{} --- a simple, multilingual and cross-platform text editor
+are laid out in this document. It is expected to be useful for
+installation, configuration, documentation purposes by end-users and developers.
+
+\subsection{Purpose}
+This SRS documents the requirement specifications of the version 1.0 of
+\VS. The requirements for installing and using \VS{} are explained in
+detail here. Also the various parts of the code are explained here for
+the future developer.
+
+\subsection{Scope of the Project}
+\VS{} is intended to be a very simple and easy to use text-editor. It
+has excellent multilingual display capabilities which will enable the
+end-user to use it for typing text in various languages. It supports
+state-of-the-art Indic Language support via the Pango rendering
+library. \VS{} is written in the Python programming language which is
+also an excellent Object Oriented programming language and is incredibly
+easy to use and extend. \VS{} uses the GTk+ GUI toolkit for the User
+Interface which is also a Free \&{} Open Source cross-platform GUI
+toolkit.
+\VS{} can be a very good tool for people who want to use a light-weight
+and feature rich text-editor for creating multilingual documents. It can
+also be useful for students who want to learn Python programming.
+
+\subsection{Definitions, Acronyms, Abbreviations \&{} References}
+\begin{enumerate}
+\item Python -- Python is an object-oriented, interpreted programming
+  language with dynamic semantics [http://www.python.org/]
+\item GTk+ -- GTk+ is a cross platform GUI toolkit [http://www.gtk.org/]
+\item \VS{} -- \VS{} is a simple, multilingual text editor
+  [http://vyasa.berlios.de/]
+\item Pango -- Pango is a text rendering library for GTk+
+\end{enumerate}
+
+\subsection{Overview of the Document}
+This document provides the users, developers of \VS{} a bird's eye view
+of the software in general and information about installing, configuring
+and enhancing \VS{} in particular.
+
+The mechanics of installing \VS{} are provided in detail as well as the
+requirements for using it.
+
+
+\section{Overall Description}
+\subsection{Product Perspective}
+\subsection{Product Functions}
+\subsection{User Characteristics}
+\subsection{General Constraints}
+\subsection{Assumptions \&{} Dependencies}
+
+\section{Specific Requirements}
+\subsection{External Interface Requirements}
+\subsubsection{User Interfaces}
+\subsubsection{Hardware Interfaces}
+\subsubsection{Software Interfaces}
+\subsubsection{Communication Interfaces}
+\subsection{Functional Requirements}
+\subsection{Performance Requirements}
+\subsection{Design Constraints}
+\subsection{Attributes}
+\subsection{Other Requirements}
+
+
+
+
+%%%%##########################################################################
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
