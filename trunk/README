@@ -1,0 +1,7 @@
+Vyasa Multilingual Text Editor
+------------------------------
+
+It's just a simple hack which I did one night to create a text editor in Python & GTk+
+You can use the source for whatever purpose you wish as long as you respect the GNU GPLv2
+
+Baishampayan Ghose <b.ghose@gnu.org>
