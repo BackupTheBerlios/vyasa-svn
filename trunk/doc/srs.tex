@@ -6,6 +6,8 @@
 
 \documentclass[12pt,a4paper]{article}
 \usepackage[debugshow,final]{graphicx}
+\usepackage{hyperref}
+\usepackage{breakurl}
 \newcommand{\VS}{\textit{Vyasa}}
 
 % %% SET ALL MARGINS 1 INCH ---------------------------------------
@@ -18,10 +20,13 @@
 % %% --------------------------------------------------------------
 
 \usepackage{newcent}
-\title {Vyasa --- A simple, multilingual, cross-platform text editor \\ \small{\texttt{http://vyasa.berlios.de/}}}
+\title {Vyasa --- A simple, multilingual, cross-platform text editor \\
+  \small{\url{http://vyasa.berlios.de/}}}
 \author {\large{Baishampayan Ghose\footnote{\texttt{b.ghose@gnu.org}},
     Aatif Haider\footnote{\texttt{aatif.haider@gmail.com}}, \textit{et
-      al.}\footnote{Chetan Singh Dhunna, Shailesh Desai, Sarita K.}} \\\small{T.E.~ Computer Science \&{} Engineering}\\ \small{\textsc{D.Y. Patil College of Engineering \&{} Technology,}}
+      al.}\footnote{Chetan Singh Dhunna, Shailesh Desai, Sarita K.}}
+  \\\small{T.E.~ Computer Science \&{} Engineering}\\ 
+\small{\textsc{D.Y. Patil College of Engineering \&{} Technology,}}
 \\ \small{\textsc{Kolhapur, Maharashtra}}}
 \date{\small{\today}}
 \begin{document}
@@ -58,12 +63,14 @@ also be useful for students who want to learn Python programming.
 
 \subsection{Definitions, Acronyms, Abbreviations \&{} References}
 \begin{enumerate}
-\item Python -- Python is an object-oriented, interpreted programming
-  language with dynamic semantics [http://www.python.org/]
-\item GTk+ -- GTk+ is a cross platform GUI toolkit [http://www.gtk.org/]
-\item \VS{} -- \VS{} is a simple, multilingual text editor
-  [http://vyasa.berlios.de/]
-\item Pango -- Pango is a text rendering library for GTk+
+\item Python --- Python is an object-oriented, interpreted programming
+  language with dynamic semantics (\url{http://www.python.org/})
+\item GTk+ --- GTk+ is a cross platform GUI toolkit (\url{http://www.gtk.org/})
+\item \VS{} --- \VS{} is a simple, multilingual text editor
+  (\url{http://vyasa.berlios.de/})
+\item Pango --- Pango is a text laying-out \&{} rendering library for
+  GTk+ (\url{http://www.pango.org/})
+\item GUI --- Graphical User Interface
 \end{enumerate}
 
 \subsection{Overview of the Document}
@@ -103,7 +110,7 @@ platfrom that supports Python \&{} GTk+ libraries.
   self-descriptive. The use-interface definitions are located in the
   \texttt{vyasa.glade} file. The latest source code can be downloaded
   from the \VS{} \textit{Subversion} repository located at
-  \texttt{http://svn.berlios.de/wsvn/vyasa}.
+  \url{http://svn.berlios.de/wsvn/vyasa/}.
 \item \VS{} Documenters --- The code and this SRS will be pretty useful
   for documenters for documenting \VS.
 \end{enumerate}
