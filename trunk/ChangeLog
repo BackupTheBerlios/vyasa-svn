@@ -1,4 +1,11 @@
-2006-04-07  Baishampayan Ghose  <b.ghose@gnu.org.in>
+2006-04-07  Baishampayan Ghose  <b.ghose@gnu.org>
+
+	* vyasa.py -- Now it won't run directly, the class is instantiated
+	  in run and is executed from there.
+	* doc/srs.tex -- Updated the SRS
+	* Added the GPL text to LICENSE
+
+2006-04-07  Baishampayan Ghose  <b.ghose@gnu.org>
 
 	* vyasa.glade -- Added an icon to the about dialog
 

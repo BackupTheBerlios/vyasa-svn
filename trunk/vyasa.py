@@ -164,5 +164,5 @@ class SaveAsDialog:
 			self.fname = False
 		dialog.destroy()
 		
-app = Vyasa()
-app.main()
+#app = Vyasa()
+#app.main()

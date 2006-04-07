@@ -1,0 +1,4 @@
+#!/usr/bin/python
+from vyasa import Vyasa
+app = Vyasa()
+app.main()
